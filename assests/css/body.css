@@ -1,0 +1,42 @@
+@import 'header.css';
+@import 'footer.css';
+@import 'main.css';
+@import 'blog.css';
+
+body{
+    margin: 0;
+   padding: 0;
+    
+}
+
+button:hover, a:hover {
+   opacity: 0.5;
+} 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+blockquote{
+    background-color: #b494a8;
+    padding: 5px;
+    border-radius: 10px 0;
+    border-left: #383636 solid ;
+    quotes: "'" "'";
+    color: rgb(241, 210, 239);
+}
+@media only screen and (max-width: 1400px){
+blockquote{
+    font-size: 25px;
+}
+}
+@media only screen and (max-width: 768px){
+    blockquote{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 600px){
+    blockquote{
+        font-size: 15px;
+    }
+}
